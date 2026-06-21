@@ -1,4 +1,12 @@
 ---
+version: v0.909.0
+date:    2026-07-02 16:20:58+02:00
+changes:
+- 'fix(OOP Interface test): Do not crash on missing JSON::PP dependency (@jplesnik)'
+- 'fix(OOP interface): Fix for quadmath builds of perl (@sisyphus)'
+- 'fix: Add YAML::XS::LibYAML back to list of provided modules (@haarg)'
+- 'feat(OOP interface): Add boolean option'
+---
 version: v0.908.0
 date:    2026-06-21 00:15:34+02:00
 changes:
