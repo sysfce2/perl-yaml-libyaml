@@ -65,6 +65,7 @@ new(char *class_name, ...)
             yaml->anchor_prefix = "";
             yaml->cyclic_refs = 0;
             yaml->utf8 = 0;
+            yaml->boolean = 0;
             hash = newHV();
 
             if (items > 1) {
