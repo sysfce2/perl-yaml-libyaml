@@ -1,4 +1,10 @@
 ---
+version: v0.910.0
+date:    2026-07-03 11:13:32+02:00
+changes:
+- 'fix(OOP Interface): Fix default boolean option (missing default lead to
+    random default on some architectures) #133'
+---
 version: v0.909.0
 date:    2026-07-02 16:20:58+02:00
 changes:
